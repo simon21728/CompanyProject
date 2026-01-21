@@ -1,0 +1,17 @@
+# Exported from Render on 2026-01-21T11:24:29Z
+version: "1"
+projects:
+- name: My project
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: CompanyProject
+      runtime: python
+      repo: https://github.com/simon21728/CompanyProject
+      plan: free
+      region: virginia
+      buildCommand: pip install -r requirements.txt
+      startCommand: gunicorn your_application.wsgi
+      autoDeployTrigger: commit
+      rootDir: backend
