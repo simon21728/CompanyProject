@@ -4,7 +4,7 @@ function Services() {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/services/")
+    fetch("https://companyproject-k4hz.onrender.com/api/services/")
       .then((res) => res.json())
       .then((data) => setServices(data))
       .catch((err) => console.error("API fetch error:", err));

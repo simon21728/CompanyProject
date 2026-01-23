@@ -13,7 +13,7 @@ function Contact() {
     setStatus("Sending...");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/contacts/", {
+      const response = await fetch("https://companyproject-k4hz.onrender.com/api/contacts/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

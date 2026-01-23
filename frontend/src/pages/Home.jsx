@@ -4,7 +4,7 @@ function Home() {
   const [homeData, setHomeData] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/home/")
+    fetch("https://companyproject-k4hz.onrender.com/api/home/")
       .then((res) => res.json())
       .then((data) => setHomeData(data))
       .catch((err) => console.error("API fetch error:", err));
