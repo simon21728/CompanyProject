@@ -3,7 +3,11 @@ function Moreinfo() {
     <div className="min-h-screen bg-gray-800 text-white m-0 p-0">
       <div
         className="mt-[20px] ml-[30px]"
-        style={{ padding: "50px 20px" }}
+        style={{
+              padding: "50px 20px",
+              background: "linear-gradient(to bottom, #f0f4f8, #e0f7fa)",
+              minHeight: "100vh",
+              fontFamily: "Arial, sans-serif", }}
       >
         <div className="flex flex-col md:flex-row justify-between gap-4 mb-6">
           <div className="moreinfo-item">
