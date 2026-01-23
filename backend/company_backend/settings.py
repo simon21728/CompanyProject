@@ -63,10 +63,10 @@ MIDDLEWARE = [
 
 
 
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = False
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Vite default dev server
+    "https://companyproject-k4hz.onrender.com",  # Vite default dev server
 ]
 
 ROOT_URLCONF = 'company_backend.urls'
