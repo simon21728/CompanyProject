@@ -1,6 +1,12 @@
 function Moreinfo() {
   return (
     <div className="moreinfo-page bg-gray-800 text-white p-6 min-h-screen">
+      style={{
+        padding: "50px 20px",
+        background: "linear-gradient(to bottom, #f0f4f8, #e0f7fa)",
+        minHeight: "100vh",
+        fontFamily: "Arial, sans-serif",
+      }}
       <div className="moreinfo-container flex flex-col md:flex-row justify-between gap-4 mb-6">
         
         <div className="moreinfo-item">

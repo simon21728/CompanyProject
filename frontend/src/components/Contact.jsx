@@ -39,13 +39,11 @@ function Contact() {
 
   return (
     <div
-      style={{
-        padding: "40px",
-        background: "linear-gradient(to bottom, #f9f9f9, #e0f7fa)",
+      sstyle={{
+        padding: "50px 20px",
+        background: "linear-gradient(to bottom, #f0f4f8, #e0f7fa)",
         minHeight: "100vh",
         fontFamily: "Arial, sans-serif",
-        display: "flex",
-        justifyContent: "center",
       }}
     >
       <div
