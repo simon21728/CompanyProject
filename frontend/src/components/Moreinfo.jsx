@@ -1,6 +1,6 @@
 function Moreinfo() {
   return (
-    <div className="min-h-screen bg-gray-800 text-white p-0">
+    <div className="min-h-screen bg-gray-800 text-white m-0 p-0">
       <div className="px-6 py-8 md:px-12 md:py-10">
         <div className="flex flex-col md:flex-row justify-between gap-4 mb-6">
           <div className="moreinfo-item">
