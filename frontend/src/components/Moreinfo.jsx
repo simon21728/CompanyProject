@@ -4,7 +4,7 @@ function Moreinfo() {
       <div
         className="mt-[20px] ml-[30px]"
         style={{
-              padding: "50px 20px",
+              padding: "100px 700px",
               background: "linear-gradient(to bottom, #f0f4f8, #e0f7fa)",
               minHeight: "100vh",
               fontFamily: "Arial, sans-serif", }}
