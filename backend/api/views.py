@@ -7,7 +7,8 @@ from .serializers import ServiceSerializer, ContactSerializer,HomeSerializer, Ab
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
-
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
 class HomeViewSet(viewsets.ModelViewSet):
     queryset = Home.objects.all()       
@@ -21,7 +22,7 @@ class AboutViewSet(viewsets.ModelViewSet):
 class ServiceViewSet(viewsets.ModelViewSet):
     queryset = Service.objects.all()
     serializer_class = ServiceSerializer
-
+@method_decorator(csrf_exempt, name='dispatch')
 class ContactViewSet(viewsets.ModelViewSet):
     queryset = Contact.objects.all()
     serializer_class = ContactSerializer
