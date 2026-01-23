@@ -2,7 +2,7 @@ function Moreinfo() {
   return (
     <div className="min-h-screen bg-gray-800 text-white m-0 p-0">
       <div
-        className="mt-[20px] ml-[30px]"
+        className="mt-[50px] ml-[30px]"
         style={{
               padding: "6px 500px",
               background: "linear-gradient(to bottom, #f0f4f8, #e0f7fa)",
